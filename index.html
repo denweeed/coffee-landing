@@ -3,42 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
-            <img src="img/logo.png" alt="logo">
-                <ul>
-                    <li><a href="#">Us</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                 </ul>
-                 <button>
-                    <img src="img/buttons/buy-now-default.png" alt="buy-now-default">
-                </button>
-        </nav>
+    <div class="top__bar">
+        <div class="container">
+        <img src="img/top-bar.png" alt="icon">
+        <p class="top__bar__text">FREE SHIPPING TO ALL STATES</p>
+        </div>
+    </div>
+
+    <nav class="nav">
+        <div class="container nav__container">
+        <img src="img/logo.png" alt="logo">
+
+        <div class="nav__right">
+            <ul class="nav__list">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+            </ul>
+            <button class="button__buy__now">
+            <img src="img/buttons/buy-now-default.png" alt="">
+            </button>
+        </div>
+        </div>
+    </nav>
     </header>
 
     <main>
-        <section>
-            <div>
-                <span>$129</span>
-                <span>SAVE 25%</span>
-                <del>$162</del>
+        <section class="hero">
+            <div class="container hero__container">
+            <div class="hero__info">
+                <div class="hero__price">
+                    <span>$129</span>
+                    <span>SAVE 25%</span>
+                    <del>$162</del>
+                </div>
                 <h1>
-                    The New Intellect Coffee 
-                    Brewer Pro
+                    The New Intellect Coffee<br>Brewer Pro
                 </h1>
+                <p>
+                    The ideal day starts with the flawless cup of coffee. 
+                    IntellectBrew Pro is<br> crafted for simplicity and convenience, 
+                    ensuring a consistently perfect<br>brew with every pour.
+                </p>
+                <div class="hero__actions">
+                    <button class="button__buy__now">
+                        <img src="img/buttons/buy-now-default.png" alt="buy-now-default">
+                    </button>
+                    <button class="button__learn__more">Learn more</button>
+                </div>
+            </div>
+            </div>
+            <div class="hero__img">
                 <img src="img/coffee-machine.png" alt="coffee-machine">
-                <p>The ideal day starts with the flawless cup of coffee. IntellectBrew Pro is crafted for simplicity and convenience, ensuring a consistently perfect brew with every pour.</p>
             </div>
-            <div>
-                <button>
-                    <img src="img/buttons/buy-now-default.png" alt="buy-now-default">
-                </button>
-                <button>Learn more</button>
+            <div class="hero__bg">
+                <img src="img/bg-coffee.png" alt="bg-coffee">
             </div>
+        </div>
         </section>
         <section>
             <div>
