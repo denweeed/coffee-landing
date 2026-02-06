@@ -106,6 +106,22 @@ a {
     color: #e68a00;
 }
 
+.button__play {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer; 
+    height: 100%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
+    top: 50%;
+    left: 50%;
+}
+
+.button__play:hover img {
+    transform: scale(1.1);
+}
+
 .hero {
     position: relative;
     min-height: 713px;
@@ -198,4 +214,20 @@ a {
     font-size: 24px;
     text-align: center;
     box-sizing: border-box;
+}
+
+.move__section {
+    height: 100%;
+    margin-top: 11px;
+}
+.move {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+.move img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
 }
