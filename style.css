@@ -132,6 +132,24 @@ a {
     transform: scale(1.1);
 }
 
+.subscribe__button {
+    flex: none;
+    width: 174px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: #e68a00;
+    color: black;
+}
+
+.subscribe__button:hover {
+    background-color: #cc7700;
+}
+
 .hero {
     position: relative;
     min-height: 713px;
@@ -144,7 +162,6 @@ a {
     justify-content: space-between;
     padding-top: 151px;
     position: relative;
-
 }
 
 .hero__info {
@@ -226,14 +243,15 @@ a {
     box-sizing: border-box;
 }
 
-.move__section {
-    height: 100%;
-    margin-top: 11px;
-}
 .move {
     position: relative;
     height: 600px;
     overflow: hidden;
+}
+
+.move__section {
+    height: 100%;
+    margin-top: 11px;
 }
 
 .move img {
@@ -329,7 +347,6 @@ a {
     height: 256px;
     margin-bottom: 100px;
     border-radius: 30px;
-
     background-color: #F8F9FF;
 }
 
@@ -344,6 +361,7 @@ a {
 
 .reviews__item:first-child {
     background-color: #54372B;
+    font-weight: 700;
 }
 
 .reviews__header {
@@ -363,4 +381,58 @@ a {
 
 .reviews__rating {
     width: 134px;
+}
+.subscribe__container { 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    z-index: 1;
+}
+
+.subscribe__container img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.subscribe__container p {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    font-size: 37px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.subscribe__form {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.subscribe__input-wrapper {
+    display: flex;
+    align-items: center;
+    width: 486px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.subscribe__input-wrapper input {
+    flex: 1;
+    height: 54px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    color: #000;
 }
