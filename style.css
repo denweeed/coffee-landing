@@ -142,6 +142,7 @@ a {
     font-size: 16px;
     cursor: pointer;
     white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
     background-color: #e68a00;
     color: black;
 }
@@ -297,6 +298,7 @@ a {
     font-size: 37px;
     font-weight: 700;
 }
+
 .app__features p {
     margin-top: 12px;
 }
@@ -354,6 +356,7 @@ a {
     font-size: 24px;
     font-weight: 700;
 }
+
 .reviews__item p {
     margin-top: 19px;
     margin-left: 40px;
@@ -382,6 +385,7 @@ a {
 .reviews__rating {
     width: 134px;
 }
+
 .subscribe__container { 
     position: relative;
     display: flex;
@@ -435,4 +439,37 @@ a {
     font-family: 'Poppins', sans-serif;
     background: #fff;
     color: #000;
+}
+
+.footer {
+    height: 266px;
+    color: white;
+    background-color: black;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 40px;
+    gap: 64px;
+}
+
+.footer__logo {
+    margin-right: auto; 
+    margin-top: -24px;
+    margin-left: -30px;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer__social p {
+    margin-bottom: 16px;
 }
